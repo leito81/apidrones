@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20211218063159_Initial.cs" />
+    <Compile Remove="Migrations\20211218063159_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20211218063405_Initial.cs" />
+    <Compile Remove="Migrations\20211218063405_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20211220161116_Initial.cs" />
+    <Compile Remove="Migrations\20211220161116_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20211220162408_Initial.cs" />
+    <Compile Remove="Migrations\20211220162408_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20211220162502_Initial.cs" />
+    <Compile Remove="Migrations\20211220162502_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20211220172418_Initial.cs" />
+    <Compile Remove="Migrations\20211220172418_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20211220181908_Initial.cs" />
+    <Compile Remove="Migrations\20211220181908_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20211220182146_Initial.cs" />
+    <Compile Remove="Migrations\20211220182146_Initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.14" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="MySql.Data" Version="8.0.26" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.19" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Quartz" Version="3.0.7" />
+  </ItemGroup>
+
+</Project>
